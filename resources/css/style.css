@@ -1,0 +1,134 @@
+body {
+  display: flex;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  flex-direction: column;
+  align-content: center;
+}
+header {
+  display: flex;
+  height: 69px;
+  width: 100%;
+  background-color: black;
+  position: fixed;
+  border-bottom: 1px solid seashell;
+  z-index: 20;
+}
+.logo {
+  padding-left: 10px;
+  flex-grow: 1;
+  display: inline-block;
+  align-items: flex-start;
+}
+nav span {
+  display: inline-block;
+  padding: 10px 20px 10px 0px;
+  flex-grow: 1;
+}
+a {
+  color: seashell;
+}
+.mission {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  justify-content: center;
+  height: 700px;
+  width: 1200px;
+  background-image: url(../images/img-mission-background.jpg);
+  background-color: orange;
+  background-position: center;
+  margin-top: 70px;
+  align-self: center;
+}
+.description {
+  display: inline-block;
+  position: absolute;
+  justify-content: center;
+  background-color: black;
+}
+.description h2, h4 {
+  width: 1200px;
+  flex-grow: 1;
+}
+.totm {
+  display: inline-block;
+  justify-content: center;
+  position: static;
+  }
+h2, h4 {
+  text-align: center;
+  flex-grow: 1;
+  width: auto;
+  height: auto;
+}
+.row1 {
+  display: flex;
+  width: 1000px;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+.row2 {
+  display: flex;
+  width: 650px;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+.name {
+  flex: 1;
+}
+.first, .second, .third {
+  flex-direction: column;
+}
+.specials {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 1;
+}
+.locations {
+  height: 500px;
+  width: 1200px;
+  display: flex;
+  align-self: center;
+  background-image: url("../images/img-locations-background.jpg");
+  background-position: center;
+  background-size: cover;
+  flex-direction: column;
+}
+.site1, .site2, .site3 {
+  width: 300px;
+  opacity: 1;
+  background-color: black;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+}
+.sites {
+  display: flex;
+  width: 980px;
+  align-content: center;
+  align-self: center;
+  justify-content: space-between;
+  margin-top: 0;
+}
+.contact {
+  display: inline-block;
+  align-items: center;
+  height: 200px;
+  align-self: center;
+  text-align: center;
+}
+.copyright {
+  margin-left: 20px;
+  align-self: flex-start;
+}
+#title {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 40px;
+}
